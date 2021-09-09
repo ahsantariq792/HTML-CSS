@@ -1,0 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.to_center{
+    text-align: center;
+}
+
+table{
+    margin: 5% auto;
+}
