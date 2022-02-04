@@ -1,0 +1,108 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-box {
+    width: 360px;
+    height: 840px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login-box {
+    width: 360px;
+    height: 300px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+    position: relative;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%,0);
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+.sbtn {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #49c1a2;
+    color: white ;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 1%;
+
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2 {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para-2 a {
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.containerbox{
+    margin: 0%;
+    background-image: url(../images/backgroundform.jpg);
+    position: relative;
+    height: 140vh;
+    background-size: cover;
+    padding: 2%;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+}

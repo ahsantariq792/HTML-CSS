@@ -1,0 +1,94 @@
+.container-md{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #51644f;
+}
+
+
+.content-box{
+    padding: 20px;
+}
+
+
+/* faqssssss */
+
+
+/* help */
+
+.help-heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #51644f	;
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+    color: #51644f	;
+}
+a:visited{
+    text-decoration: none;
+    color: #51644f	;
+}
+a .help-content:hover{
+    background-color: #51644f;
+    color: white;
+}
+.help-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+.help-content{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    height: 125px;
+    text-align: center;
+    
+}
+.help-h3{
+    text-align: center;
+    font-size: 24px;
+}
+.help-para{
+    padding: 5px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.faq-h1 {
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    text-shadow: 1px;
+}
+
+.faq-h2,
+.faq-h3,
+.faq-h4 {
+    padding: 10px;
+}
+
+.faq-h2 {
+    font-weight: 500;
+    font-size: 3ch
+}
+
+/* .btn {
+    margin-top: 10px;
+    margin-left: 10px;
+} */
+
+
+

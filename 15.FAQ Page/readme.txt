@@ -1,0 +1,1 @@
+The main page of Help/FAQs section is Help.html, other ones are the subpages

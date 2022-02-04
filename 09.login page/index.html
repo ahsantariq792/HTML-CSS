@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> login </title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row m-5 no-gutters shadow-lg">
+      <div class="col-md-6 d-none  bg-light d-md-block">
+       <!-- <div class="mx-5 my-5">
+          <h4 style= "font-family: cursive" ><i class="fas fa-comments-dollar"></i>&nbsp;TS</h4>
+        </div> -->
+        <div style="font-family: Impact, Haettenschweiler" >
+          <h1 class="m-5">
+            <center>THRIFT STORE</center>
+          </h1>
+        </div><br /><br />
+        <div class="mx-2" style="color: grey ; text-align: center">
+          <p class="para1">
+            <center>Thrift store is a trusted community marketplace for people to list, discover and then buy/sell
+              online
+              around the country. Whether it is an appartment or a car, Thrift store connects people to unqiue
+              experiences at any
+              price point and with the world class customer service and a growing community of users. Thrift Store is
+              the easiest
+              way for people to buy/sell for their financial services and addressing the underlying barriers to
+              financial access</center>
+          </p>
+        </div><br /><br /><br />
+        <div class="pic1">
+          <center>
+            <img style= "height: 300px" src=" https://wallpapercave.com/wp/wp8918291.jpg " />
+          </center>
+        </div>
+      </div>
+      <div class="col-md-6  p-5" style=" background-color: rgba(128, 128, 128, 0.274)">
+        <h2 class="pb-4" style=" font-family: cursive ; margin-bottom: 10px">
+          <center><b> WELCOME </b></center>
+        </h2><br />
+        <div class="form-style">
+          <form onSubmit={formik.handleSubmit}>
+            <div class="form-group pb-3">
+              <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp" />
+
+              <TextField id="outlined-basic" name="email" label="email" class="inputbox" value={formik.values.email}
+                onChange={formik.handleChange} error={formik.touched.email && Boolean(formik.errors.email)}
+                helperText={formik.touched.email && formik.errors.email} fullWidth variant="outlined" />
+
+            </div>
+            <div class="form-group pb-3">
+              <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1" />
+
+              <TextField id="outlined-basic" name="password" label="password" type="password" class="inputbox"
+                value={formik.values.password} onChange={formik.handleChange} error={formik.touched.password &&
+                Boolean(formik.errors.password)} helperText={formik.touched.password && formik.errors.password}
+                fullWidth variant="outlined" />
+
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="d-flex align-items-center"><input name="" type="checkbox" value="" /> <span
+                  class="pl-2 font-weight-bold">Remember Me</span></div>
+              <div>Forget Password?</div>
+            </div><br />
+            <div class="pb-2">
+              <button type="submit" id="userbtn" class="btn btn-dark w-100 font-weight-bold mt-2">LOGIN</button>
+            </div>
+           <p>
+              <center>New User?&nbsp;&nbsp;&nbsp;&nbsp;<b>
+                  <a href="/signup.html" style= "text-decoration: none ; color: black">SIGNUP HERE</a>
+                </b> </center>
+            </p>
+          </form>
+          <div class="sideline">
+            <center>---------------------- OR ----------------------</center>
+          </div>
+          <div><br />
+            <button class="btn btn-primary w-100 font-weight-bold mt-2 userbtn"><i
+                class="fab fa-facebook-f"></i>&nbsp;&nbsp;&nbsp; Login With Facebook</button>
+          </div>
+          <div>
+            <button class="btn btn-danger w-100 font-weight-bold mt-2 userbtn"><i
+                class="fab fa-google"></i>&nbsp;&nbsp;&nbsp; Login With Google</button>
+          </div>
+          <div>
+            <button class="btn btn-info w-100 font-weight-bold mt-2 userbtn"><i
+                class="fab fa-twitter"></i>&nbsp;&nbsp;&nbsp; Login With Twitter</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

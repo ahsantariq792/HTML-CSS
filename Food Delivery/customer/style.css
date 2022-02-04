@@ -1,0 +1,89 @@
+nav a{
+    color: white !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+nav .dropdown-item{
+    color: black !important;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-family: cursive;
+    margin-right: 5%;
+    margin-left: 1%;
+
+}
+
+
+.signup-box {
+    width: 360px;
+    height: 680px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    font-style: italic;
+}
+
+#dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4%;
+}
+
+.card{
+    text-align: center;
+    margin: 2%;
+    border: 2px solid grey;
+    text-transform: uppercase;
+}
+
+
+
+.card-img-top{
+    width: 100%;
+    height: 60%;
+}
+
+.card-title{
+    color: rgb(8, 150, 126) !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 22px;
+    letter-spacing: 2px;
+
+}
+
+.card-text{
+    font-style: italic;
+    font-weight: 600; 
+    font-size: 20px;
+    font-family: cursive;
+    padding: 0%;
+    margin: 0%;
+    letter-spacing: 2px;
+}
+
+.btn{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+
+.text{
+    font-size: 18px;
+    color: grey;
+}

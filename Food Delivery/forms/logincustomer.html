@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Form </title>
+    <link rel="stylesheet" href="forms.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyB0Sxwknz9VE1RPWBgF37Pu52wY0IFOO1w",
+            authDomain: "saylanihackathon-fooddelivery.firebaseapp.com",
+            projectId: "saylanihackathon-fooddelivery",
+            storageBucket: "saylanihackathon-fooddelivery.appspot.com",
+            messagingSenderId: "941611113835",
+            appId: "1:941611113835:web:807e0109df7d99f6b9002e",
+            measurementId: "G-V0EQRK398C"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="containerbox">
+        <div class="login-box">
+            <h1>Login</h1>
+            <div class="form">
+
+                <label>Email</label>
+                <input type="email" placeholder="" id="loginemail" required />
+                <label>Password</label>
+                <input type="password" placeholder="" id="loginpassword" required />
+
+                <input class="sbtn" onclick="signincustomer()" type="submit" value="Login">
+            </div>
+
+            <p class="para-2">
+                Not have an account? <a href="signupcustomer.html">Sign Up Here</a>
+            </p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
